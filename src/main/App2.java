@@ -24,11 +24,11 @@ public class App2 {
 		ObjectInputStream dadosRead;
 			dadosRead = new ObjectInputStream(dados);
 			
-			minhaLoja = new XulambGames("01.txt");
+
 		 dadosRead.close();
 		}
 		catch (FileNotFoundException e) {
-			
+			minhaLoja = new XulambGames("01.txt");
         }catch(IOException ex){
          
         }
